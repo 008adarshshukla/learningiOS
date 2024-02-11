@@ -13,6 +13,7 @@
 		028FDB392B78BE0B0026EB34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028FDB382B78BE0B0026EB34 /* Preview Assets.xcassets */; };
 		028FDB452B78CB670026EB34 /* Theory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FDB442B78CB670026EB34 /* Theory.swift */; };
 		028FDB472B78CD560026EB34 /* UOHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FDB462B78CD560026EB34 /* UOHomeView.swift */; };
+		028FDB4A2B7905D40026EB34 /* PAHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FDB492B7905D40026EB34 /* PAHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		028FDB382B78BE0B0026EB34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		028FDB442B78CB670026EB34 /* Theory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theory.swift; sourceTree = "<group>"; };
 		028FDB462B78CD560026EB34 /* UOHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOHomeView.swift; sourceTree = "<group>"; };
+		028FDB492B7905D40026EB34 /* PAHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		028FDB3F2B78BE340026EB34 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				028FDB482B79037D0026EB34 /* PhaseAnimation */,
 				028FDB432B78CA150026EB34 /* UrlOpening */,
 			);
 			path = Modules;
@@ -87,6 +90,14 @@
 				028FDB462B78CD560026EB34 /* UOHomeView.swift */,
 			);
 			path = UrlOpening;
+			sourceTree = "<group>";
+		};
+		028FDB482B79037D0026EB34 /* PhaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				028FDB492B7905D40026EB34 /* PAHomeView.swift */,
+			);
+			path = PhaseAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				028FDB342B78BE090026EB34 /* ContentView.swift in Sources */,
 				028FDB322B78BE090026EB34 /* learningiOSApp.swift in Sources */,
+				028FDB4A2B7905D40026EB34 /* PAHomeView.swift in Sources */,
 				028FDB452B78CB670026EB34 /* Theory.swift in Sources */,
 				028FDB472B78CD560026EB34 /* UOHomeView.swift in Sources */,
 			);
